@@ -28,6 +28,7 @@
 
         <p>
             <label for="searchTerm">Keyword:</label>
+
             <input type="text" name="searchTerm" id="searchTerm" />
         </p>
 
@@ -37,7 +38,7 @@
     <hr />
 
     <!-- DONE #4 - Loop over the search results to display all job fields. -->
-    <block th:replace = "list-jobs :: displayResults"></block>
+    <table th:replace = "list-jobs :: displayResults"></table>
 </div>
 
 </body>
